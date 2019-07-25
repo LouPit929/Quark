@@ -12,7 +12,7 @@ public class UndergroundBiomeGlowshroom extends BasicUndergroundBiome {
 	public static double mushroomChance;
 	
 	public UndergroundBiomeGlowshroom() {
-		super(Blocks.DIRT.getDefaultState(), Blocks.DIRT.getDefaultState(), Blocks.DIRT.getDefaultState());
+		super(Blocks.MYCELIUM.getDefaultState(), Blocks.DIRT.getDefaultState(), Blocks.DIRT.getDefaultState());
 	}
 	
 	@Override
